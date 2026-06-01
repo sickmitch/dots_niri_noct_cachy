@@ -20,6 +20,7 @@ binds {
     Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "GTK_THEME=Skeuos-Blue-Dark nautilus"; }
     Mod+V                               hotkey-overlay-title="Clipboard" { spawn-sh "qs -c noctalia-shell ipc call plugin:clipper toggle"; }
     Mod+M                               hotkey-overlay-title="Open Memos" { spawn-sh "firefox --class WebApp-memos4840 --name WebApp-memos4840 --profile /home/mike/.local/share/ice/firefox/memos4840 --no-remote 'https://memos.sickmitch.cc'"; }
+    Mod+T                               hotkey-overlay-title="Open Thunderbird" { spawn-sh "thunderbird -mail"; }
 
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call volume increase"; }
@@ -120,7 +121,7 @@ binds {
     
 
     // ─── Modes ───
-    Mod+T                               { toggle-window-floating; }
+    Mod+Shift+T                               { toggle-window-floating; }
     Mod+CTRL+F                               { fullscreen-window; }
     Mod+O                               { toggle-column-tabbed-display; }
 
