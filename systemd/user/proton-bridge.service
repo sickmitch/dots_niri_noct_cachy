@@ -1,0 +1,10 @@
+[Unit]
+Description=ProtonMail Bridge
+After=graphical-session.target dbus.service
+Wants=graphical-session.target
+
+[Service]
+ExecStart=bash -c /home/mike/.config/systemd/user/protonmail-bridge.sh
+
+[Install]
+WantedBy=graphical-session.target
