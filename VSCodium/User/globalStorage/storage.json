@@ -1,0 +1,99 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "67264a164980e2622bcd1cb5bb938a80fed785903c5082c48d4e385568ebb242",
+    "telemetry.devDeviceId": "20d4d670-3b1e-41bf-8d90-da6d9312c7de",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "vscode-remote://ssh-remote%2B%5Cx4d%5Cx45%5Cx44%5Cx49%5Cx41/home/mike",
+                "remoteAuthority": "ssh-remote+\\x4d\\x45\\x44\\x49\\x41"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "vscode-remote://ssh-remote%2B%5Cx44%5Cx4f%5Cx43%5Cx4b%5Cx45%5Cx52/home/mike/docker": "__default__profile__",
+            "file:///home/mike/projects/docker.code-workspace": "__default__profile__",
+            "vscode-remote://ssh-remote%2B%5Cx4d%5Cx45%5Cx44%5Cx49%5Cx41/home/mike": "__default__profile__",
+            "file:///home/mike/.config/mozilla/firefox/jfrvrots.default-release/chrome": "__default__profile__",
+            "file:///home/mike/projects/mike.code-workspace": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "vscode-remote://ssh-remote%2B%5Cx4d%5Cx45%5Cx44%5Cx49%5Cx41/home/mike",
+            "backupPath": "/home/mike/.config/VSCodium/Backups/0e1c79c5f9a381611a6dd8496b7a0a05",
+            "remoteAuthority": "ssh-remote+\\x4d\\x45\\x44\\x49\\x41",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 1422,
+                "height": 1060
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 300,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "4ea4a07309341a5d0cadb71dbf95d925": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "aae73f8c2bf10ae3481d5b14cd7c1438": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "509139a5aec2c8eafc1b928786aaac56": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3e219d23777b862cfc5915e226b15dd5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f37918abdc35a7779797f962d52ce815": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

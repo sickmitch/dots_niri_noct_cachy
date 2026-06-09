@@ -1,0 +1,12 @@
+2026/06/01 15:30:44 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: permission denied"
+2026/06/01 15:30:51 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: permission denied"
+2026/06/01 15:30:52 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: permission denied"
+2026/06/01 15:30:52 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: permission denied"
+2026/06/01 15:30:55 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: permission denied"
+2026/06/01 15:30:55 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: permission denied"
+2026/06/01 15:31:13 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: permission denied"
+2026/06/01 15:32:07 [Error] failed to get the feature toggles rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /run/nordvpn/nordvpnd.sock: connect: no such file or directory"
+2026/06/01 15:38:04 Something went wrong. Please try again. If the problem persists, contact our customer support.
+2026/06/01 16:39:46 Something went wrong. Please try again. If the problem persists, contact our customer support.
+2026/06/02 09:17:17 Something went wrong. Please try again. If the problem persists, contact our customer support.
+2026/06/02 10:16:28 Something went wrong. Please try again. If the problem persists, contact our customer support.
