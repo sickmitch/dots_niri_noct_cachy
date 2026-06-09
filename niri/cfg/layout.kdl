@@ -1,21 +1,12 @@
-    layout {
-        gaps 10 // Gap between windows
-        center-focused-column "never" // Don’t auto-center focused column
-
-        background-color "transparent" // <- needed for noctalia-shell to set wallpaper
-
-        // preset-column-widths {
-        //     proportion 0.33333
-        //     proportion 0.5
-        //     proportion 0.66667
-        // }
-	
+layout {
+  gaps 10
+  center-focused-column "never"
+  background-color "transparent"
 	default-column-width { proportion 0.75; }
-
 	focus-ring {
-		width 2
-        	active-gradient from="#65b4e6" to="#dd65e3" angle=90
-    	}
-
-        struts {}
-    }
+    on
+    width 1
+    active-gradient from="#F527B7" to="#27EEF5" angle=135
+  }
+  struts {}
+}

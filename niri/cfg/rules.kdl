@@ -21,12 +21,36 @@
     }
 
     window-rule {
-        match app-id="^kitty$"
+        match app-id="^kitty"
         exclude title=r#"^nv$"#
         opacity 0.90
     }
 
     window-rule {
-        match app-id="org.gnome.Nautilus"
+        match app-id=r#"^org.gnome.Nautilus$"#
+        draw-border-with-background false
         opacity 0.95
+    }
+
+    window-rule {
+        match app-id=r#"^org.telegram.desktop$"#
+        opacity 0.9
+        draw-border-with-background false
+    }
+    
+    window-rule {
+        match app-id=r#"nvim-wl-anywhere"#
+        opacity 0.9
+        open-floating true
+        max-width 700
+        max-height 500
+        default-floating-position x=0 y=10 relative-to="top"
+    }
+
+    window-rule {
+        match app-id="^kitty-drop$"
+        open-floating true
+        max-width 800
+        max-height 400
+        default-floating-position x=0 y=10 relative-to="top"
     }

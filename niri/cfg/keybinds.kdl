@@ -9,18 +9,23 @@ binds {
     Mod+Shift+ESCAPE                     { show-hotkey-overlay; }
 
     // ─── Applications ───
-    Mod+X                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
-    Mod+Return                     hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+    // Mod+X                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
+    Mod+X                               hotkey-overlay-title="Open Terminal: Kitty" {spawn "sh" "-c" "printf '\\n\\f' | kitty";}
+    Mod+Return                          hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
     Mod+B                               hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
     Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
-    Mod+P                        hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
-    Mod+C                         hotkey-overlay-title="Open Zed" { spawn-sh "vscodium"; }
+    Mod+P                               hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+    Mod+C                               hotkey-overlay-title="Open Zed" { spawn-sh "vscodium"; }
     Mod+SHIFT+C                         hotkey-overlay-title="Open ChatGPT" { spawn-sh "firefox --class WebApp-ChatGPT7844 --name WebApp-ChatGPT7844 --profile '/home/mike/.local/share/ice/firefox/ChatGPT7844' --no-remote 'https://chatgpt.com/'"; }
+    Mod+N                               hotkey-overlay-title="NVIM everywhere" { spawn-sh "/home/mike/.config/niri/script/nvim-anywhere.sh --copy-selected"; }
+    Mod+A                               hotkey-overlay-title="Dropdown Terminal" { spawn-sh "kitty --app-id=kitty-drop"; }
 
-    Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "GTK_THEME=Skeuos-Blue-Dark nautilus"; }
+    Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn-sh "nautilus"; }
     Mod+V                               hotkey-overlay-title="Clipboard" { spawn-sh "qs -c noctalia-shell ipc call plugin:clipper toggle"; }
     Mod+M                               hotkey-overlay-title="Open Memos" { spawn-sh "firefox --class WebApp-memos4840 --name WebApp-memos4840 --profile /home/mike/.local/share/ice/firefox/memos4840 --no-remote 'https://memos.sickmitch.cc'"; }
     Mod+T                               hotkey-overlay-title="Open Thunderbird" { spawn-sh "thunderbird -mail"; }
+    Mod+SHIFT+T                         hotkey-overlay-title="Open Telegram" { spawn-sh "Telegram -- %U"; }
+
 
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call volume increase"; }
@@ -107,7 +112,6 @@ binds {
     Mod+CTRL+7                          { move-column-to-workspace 7; }
     Mod+CTRL+8                          { move-column-to-workspace 8; }
     Mod+CTRL+9                          { move-column-to-workspace 9; }
-
     Mod+TAB                             { focus-workspace-previous; }
 
     // ─── Layout Controls ───
@@ -115,15 +119,15 @@ binds {
     // Mod+C                               { center-column; }
     // Mod+CTRL+C                          { center-visible-columns; }
     Mod+Minus                           { set-column-width "-10%"; }
-    Mod+Plus                           { set-column-width "+10%"; }
+    Mod+Plus                            { set-column-width "+10%"; }
     Mod+Shift+Minus                     { set-window-height "-10%"; }
-    Mod+Shift+Plus                     { set-window-height "+10%"; }
+    Mod+Shift+Plus                      { set-window-height "+10%"; }
     
 
     // ─── Modes ───
-    Mod+Shift+T                               { toggle-window-floating; }
-    Mod+CTRL+F                               { fullscreen-window; }
-    Mod+O                               { toggle-column-tabbed-display; }
+    Mod+SHIFT+F                               { toggle-window-floating; }
+    Mod+CTRL+F                                { fullscreen-window; }
+    Mod+O                                     { toggle-column-tabbed-display; }
 
     // ─── Screenshots ───
     CTRL+Shift+1                        { screenshot; }

@@ -1,6 +1,8 @@
 {
 	"file_history":
 	[
+		"/home/mike/NAS/media/music/Alpha Steppa/To The End Of The Earth & Sea, Ancestral Memory/album.nfo",
+		"/home/mike/NAS/media/music/Al Campbell/Natty Too Tall/album.nfo",
 		"/home/mike/jotty_notes/Matrimonio/Assets.md",
 		"/home/mike/jotty_notes/Lavori/Carta da Parati.md",
 		"/home/mike/jotty_notes/Lavori/Paco.md",
@@ -17,11 +19,11 @@
 	"last_version": 4200,
 	"last_window_id": 4,
 	"log_indexing": false,
-	"next_update_check": 1779516096,
+	"next_update_check": 1780721625,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1060.0,
+		"new_window_height": 525.0,
 		"new_window_maximized": false,
 		"new_window_position":
 		[
@@ -67,9 +69,13 @@
 			},
 			"file_history":
 			[
+				"/home/mike/NAS/media/music/Crucial Rob - Pathology (Digistrib Reggae) - 2021 FLAC/Tracklist.txt",
+				"/home/mike/NAS/media/music/Crucial Rob - Pathology (Digistrib Reggae) - 2021 FLAC/album.nfo",
 				"/home/mike/Scaricati/docker-compose.yml",
 				"/home/mike/NAS/documents/Logseq/pages/Fairphone.md",
 				"/home/mike/jotty_notes/Matrimonio/Menu.md",
+				"/home/mike/NAS/media/music/Alpha Steppa/To The End Of The Earth & Sea, Ancestral Memory/album.nfo",
+				"/home/mike/NAS/media/music/Al Campbell/Natty Too Tall/album.nfo",
 				"/home/mike/jotty_notes/Matrimonio/Assets.md",
 				"/home/mike/jotty_notes/Lavori/Carta da Parati.md",
 				"/home/mike/jotty_notes/Lavori/Paco.md",
@@ -171,7 +177,7 @@
 			{
 			}
 		},
-		"new_window_width": 1422.0
+		"new_window_width": 1900.0
 	},
 	"windows":
 	[
@@ -210,7 +216,7 @@
 							"wrap_lines",
 							null,
 							"BQAAAGEAAAAAAAAAYgAAAAAAAAACAAAAIApqAAAAAAAAAGsAAAAAAAAAAgAAACAKhgAAAAAAAACHAAAAAAAAAAIAAAAgCpoAAAAAAAAAmwAAAAAAAAACAAAAIAqgAAAAAAAAAKEAAAAAAAAAAQAAACA",
-							"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA+AAAAAAAAAOgAAAAAAAAAAAAAAAAA8L8"
+							"DQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAPgAAAAAAAADoAAAAAAAAAAAAAAAAAPC/"
 						]
 					]
 				},
@@ -228,6 +234,23 @@
 					{
 						"buffer_size": 2829,
 						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/mike/NAS/media/music/Crucial Rob - Pathology (Digistrib Reggae) - 2021 FLAC/album.nfo",
+					"settings":
+					{
+						"buffer_size": 1896,
+						"encoding": "UTF-8 with BOM",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/mike/NAS/media/music/Crucial Rob - Pathology (Digistrib Reggae) - 2021 FLAC/Tracklist.txt",
+					"settings":
+					{
+						"buffer_size": 382,
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -263,6 +286,8 @@
 			},
 			"file_history":
 			[
+				"/home/mike/NAS/media/music/Alpha Steppa/To The End Of The Earth & Sea, Ancestral Memory/album.nfo",
+				"/home/mike/NAS/media/music/Al Campbell/Natty Too Tall/album.nfo",
 				"/home/mike/jotty_notes/Matrimonio/Assets.md",
 				"/home/mike/jotty_notes/Lavori/Carta da Parati.md",
 				"/home/mike/jotty_notes/Lavori/Paco.md",
@@ -334,7 +359,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 5,
 							"stack_multiselect": false,
 							"type": "text"
 						},
@@ -363,7 +388,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 4,
 							"stack_multiselect": false,
 							"type": "text"
 						},
@@ -394,14 +419,13 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 3,
 							"stack_multiselect": false,
 							"type": "text"
 						},
 						{
 							"buffer": 3,
 							"file": "/home/mike/Scaricati/docker-compose.yml",
-							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
@@ -426,7 +450,68 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/mike/NAS/media/music/Crucial Rob - Pathology (Digistrib Reggae) - 2021 FLAC/album.nfo",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1896,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1088.0,
+								"zoom_level": 1.0
+							},
 							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/mike/NAS/media/music/Crucial Rob - Pathology (Digistrib Reggae) - 2021 FLAC/Tracklist.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 382,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										118,
+										118
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
 							"stack_multiselect": false,
 							"type": "text"
 						}
@@ -466,7 +551,7 @@
 				"cols":
 				[
 					0.0,
-					0.709651898734,
+					0.403769448839,
 					1.0
 				],
 				"rows":
@@ -484,7 +569,7 @@
 				]
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,1422,1060,1920,1080,0",
+			"position": "0,0,0,0,0,0,0,1900,525,1920,1080,0",
 			"project": "",
 			"replace":
 			{

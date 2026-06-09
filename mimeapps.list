@@ -1,3 +1,15 @@
-
 [Default Applications]
 text/plain=sublime_text.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-B6ZLQ3.desktop
+message/rfc822=userapp-Thunderbird-B6ZLQ3.desktop
+x-scheme-handler/mid=userapp-Thunderbird-B6ZLQ3.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-V2CKQ3.desktop
+text/calendar=userapp-Thunderbird-V2CKQ3.desktop
+application/x-extension-ics=userapp-Thunderbird-V2CKQ3.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-V2CKQ3.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-B6ZLQ3.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-B6ZLQ3.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-V2CKQ3.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-V2CKQ3.desktop;

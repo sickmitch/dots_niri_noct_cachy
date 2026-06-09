@@ -22,7 +22,8 @@ while true; do
     # yt-dlp -f 95 -o - https://youtu.be/4xDzrJKXOOY | ffmpeg -i - -vn -f mp3 - | cvlc -
     # yt-dlp -f 95 -o - https://youtu.be/S1VfNOF58y4 | ffmpeg -i - -vn -f mp3 - | cvlc -
     # yt-dlp -f bestaudio -o - https://youtu.be/S1VfNOF58y4 | ffmpeg -i pipe:0 -vn -f mp3 pipe:1 | cvlc -
-    cvlc "$(yt-dlp --cookies-from-browser firefox -f bestaudio -g https://youtu.be/S1VfNOF58y4)"
+    # cvlc "$(yt-dlp --cookies-from-browser firefox -f bestaudio -g https://youtu.be/S1VfNOF58y4)"
+    cvlc https://player.streamhosting.ch/lounge128.mp3
   fi
 
   sleep 5
